@@ -60,9 +60,9 @@ namespace Matrix
             Console.Write("┘");
         }
 
-        public static void Draw2x2Matrix(float[,] matrix)
+        public static void Draw2x2Matrix(float[,] m)
         {
-            Draw2x2Matrix(matrix[0, 0], matrix[0, 1], matrix[1, 0], matrix[1, 1]);
+            Draw2x2Matrix(m[0, 0], m[0, 1], m[1, 0], m[1, 1]);
         }
     }
 }
